@@ -86,11 +86,11 @@ By segmenting customers based on RFM analysis and using MBA for product affinity
 
 ## Stakeholder Presentation:
 By applying RFM customer segmentation and MBA in an e-commerce context, the company can expect to see tangible business benefits such as higher CLV, increased revenue, and improved marketing ROI. The key is to bridge technical improvements—like better customer segmentation and product recommendations—with core business metrics such as revenue growth, profitability, and the long-term value of customers. **(that C-suite stakeholders care about)**
+
 When presenting to C-suite stakeholders, the focus should be on how technical improvements from RFM and MBA directly impact business outcomes:
-    1. **Revenue Growth**: By identifying high-value customer segments and leveraging MBA for product recommendations, revenue increases through higher AOV and repeat purchases. These insights help optimize marketing spend, targeting the right customers with the right products.
-    2. **Increased CLV**: The improved targeting through RFM increases the retention of at-risk customers, while MBA drives upsell and cross-sell opportunities, thereby boosting the average CLV of each customer.
-    3. **Marketing Efficiency**: With RFM segmentation, marketing efforts become more personalized and effective, leading to better ROI on marketing campaigns. By focusing resources on high-potential segments (e.g., Champions, Loyal Customers), campaigns are more likely to result in conversions.
+1. **Revenue Growth**: By identifying high-value customer segments and leveraging MBA for product recommendations, revenue increases through higher AOV and repeat purchases. These insights help optimize marketing spend, targeting the right customers with the right products.
+2. **Increased CLV**: The improved targeting through RFM increases the retention of at-risk customers, while MBA drives upsell and cross-sell opportunities, thereby boosting the average CLV of each customer.
+3. **Marketing Efficiency**: With RFM segmentation, marketing efforts become more personalized and effective, leading to better ROI on marketing campaigns. By focusing resources on high-potential segments (e.g., Champions, Loyal Customers), campaigns are more likely to result in conversions.
 
 
-**Sources (Notion - Holistic):** https://endurable-sand-5da.notion.site/Business-Narrative-Calculations-5559b5d8950d493b81256b120c2ead9e?pvs=4 
-* contains Machine Learning RFM-CLusteirng & MBA-RecSys business calculation details
+**Sources (Notion - Holistic):** https://endurable-sand-5da.notion.site/Business-Narrative-Calculations-5559b5d8950d493b81256b120c2ead9e?pvs=4 (contains Machine Learning RFM-CLusteirng & MBA-RecSys business calculation details)
