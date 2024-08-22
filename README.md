@@ -1,5 +1,9 @@
 # 🌟 PWD-DTI-Batam-DatSci-Final-Project 🌟
 
+![img1](https://github.com/user-attachments/assets/0d918a36-8958-47cb-b154-fea79a20b67f)
+
+<img width="863" alt="Screenshot 2024-08-14 at 15 16 44" src="https://github.com/user-attachments/assets/2e548728-cc32-4abe-8984-5cfb1de46e3d">
+
 ## Main Idea: 
 Pareto's principle, a commonly accepted rule of business, states that roughly 20 percent of your customers provide 80 percent of your profits. Therefore, it makes sense for small businesses to focus much of their spending and attention on their core customers. The next tier of customers should also get some marketing attention. However, customers that do not offer much lifetime potential should not be the target of marketing investments.
 
