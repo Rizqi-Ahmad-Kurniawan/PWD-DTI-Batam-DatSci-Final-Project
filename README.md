@@ -49,21 +49,23 @@ help the Stakeholders better understanding their customer base/segments as to be
 3. **Marketplace Buyer’s Perspective:**
     1. More engaged with the brand through more relevant product offerings 
     2. Increase satisfaction through better product recommendations
-6. **Project Implementation:**
-    1. **Customer Segmentation:** Tailored UX experience aimed at increasing spending through tailored segment-specific triggers (promotions, bundles, timely deals, etc)
-    2. **Product Upselling & Cross-selling:** UI elements that emphasize Product Offerings front-and-center. These offerings would not just be attention-grabbing visually, but by context as well (products that have high association to each other)
-7. **Key Guiding Questions (GQs):**
-    1. **Marketing Analytics Combination:** How effective can the combination of RFM Analysis & Market Basket Analysis provide the stakeholders with the desired result? How would the 2 methods synergise and complement each other?
-    2. **RFM Considerations:** Why an RFM Analysis be the combined-best solution to address the Stakeholder's Customer Segmentation concerns?
-    3. **MBA Considerations:** Why a Market Basket Analysis be the combined-best solution to address the Stakeholder's Customer Personalisation concerns?
-    4. **Main Goal:** How can the proposed ML approach holistically address Customer Segmentation & Personalisation marketing-related issues?
-8. **Key Proposed Solutions (PSs):**
-    1. **Method Combination:** By combining results from Marketing Analytic Methods: Customer Segmentation (RFM | Clustering) and Product Recommendations (MBA | FP-Growth) on the dataset provided (2016-2018)
-    2. **RFM:** Recency-Frequency-Monetary analysis will identify the customer segments whom are most desirable to the company's business goals
-    3. **MBA:** Market-Basket analysis will help identify ancillary products these highly desirable customer segments are most likely to buy in addition to the primary product (their current purchase behaviour)
-    4. **The Ultimate Goal:** targeted Marketing campaigns through Product Recommendation Systems (Upselling and Cross-selling) of listed products that are tailored for each Customer Segments
 
-        
+### Project Implementation:
+1. **Customer Segmentation:** Tailored UX experience aimed at increasing spending through tailored segment-specific triggers (promotions, bundles, timely deals, etc)
+2. **Product Upselling & Cross-selling:** UI elements that emphasize Product Offerings front-and-center. These offerings would not just be attention-grabbing visually, but by context as well (products that have high association to each other)
+
+### Key Guiding Questions (GQs):
+1. **Marketing Analytics Combination:** How effective can the combination of RFM Analysis & Market Basket Analysis provide the stakeholders with the desired result? How would the 2 methods synergise and complement each other?
+2. **RFM Considerations:** Why an RFM Analysis be the combined-best solution to address the Stakeholder's Customer Segmentation concerns?
+3. **MBA Considerations:** Why a Market Basket Analysis be the combined-best solution to address the Stakeholder's Customer Personalisation concerns?
+4. **Main Goal:** How can the proposed ML approach holistically address Customer Segmentation & Personalisation marketing-related issues?
+
+### Key Proposed Solutions (PSs):
+1. **Method Combination:** By combining results from Marketing Analytic Methods: Customer Segmentation (RFM | Clustering) and Product Recommendations (MBA | FP-Growth) on the dataset provided (2016-2018)
+2. **RFM:** Recency-Frequency-Monetary analysis will identify the customer segments whom are most desirable to the company's business goals
+3. **MBA:** Market-Basket analysis will help identify ancillary products these highly desirable customer segments are most likely to buy in addition to the primary product (their current purchase behaviour)
+4. **The Ultimate Goal:** targeted Marketing campaigns through Product Recommendation Systems (Upselling and Cross-selling) of listed products that are tailored for each Customer Segments
+    
 ## Business Arguments:
 
 1. **Argument-1**: **Revenue Growth**:
