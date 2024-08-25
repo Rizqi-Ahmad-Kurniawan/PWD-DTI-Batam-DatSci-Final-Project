@@ -141,4 +141,6 @@ The implementation of Machine Learning models for customer segmentation and prod
 - **CPA**: Proper segmentation can decrease CPA by 15-30% .
 
 
-**Sources (Notion - Holistic):** https://endurable-sand-5da.notion.site/Business-Narrative-Calculations-5559b5d8950d493b81256b120c2ead9e?pvs=4 (contains Machine Learning RFM-CLusteirng & MBA-RecSys business calculation details)
+**Sources (Notion - Holistic):** 
+1. [https://endurable-sand-5da.notion.site/Business-Narrative-Calculations-5559b5d8950d493b81256b120c2ead9e?pvs=4]
+2. 2. (https://endurable-sand-5da.notion.site/Biz-Data-Understanding-ipynb-Tableau-UPDATE-FINAL-Calcs-fdb7301fc7534a49a1f8e2ebc48e9014?pvs=4) (contains Machine Learning RFM-CLusteirng & MBA-RecSys business calculation details)
