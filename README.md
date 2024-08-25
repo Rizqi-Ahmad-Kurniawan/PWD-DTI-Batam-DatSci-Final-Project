@@ -7,26 +7,21 @@
 ## Main Idea: 
 Pareto's principle, a commonly accepted rule of business, states that roughly 20 percent of your customers provide 80 percent of your profits. Therefore, it makes sense for small businesses to focus much of their spending and attention on their core customers. The next tier of customers should also get some marketing attention. However, customers that do not offer much lifetime potential should not be the target of marketing investments.
 
-## Research on Business Metrics & Marketing Efficiency Improvement (post RFM & MBA):
+## Project Overview
 
-### How RFM Customer Segmentation and Product Recommendations Impact Business Metrics:
-**Business Metrics Improvement: Percentage Increases:**
-- **CLV**: Increasing customer retention by 5% can result in a 25-95% increase in profits .
-- **ACL**: Personalization strategies can extend customer lifespans by up to 20% .
-- **AOV**: Product recommendations, especially upselling and cross-selling, can boost AOV by 10-30% .
-- **APF**: Cross-selling and upselling efforts can increase purchase frequency by 15-20% .
-- **Sales Volume**: Effective segmentation and recommendation systems can lead to a 10-20% increase in sales volume .
-- **Revenue**: Personalization through RFM segmentation and product recommendations can increase overall revenue by 10-15% .
+In today’s highly competitive e-commerce landscape, understanding customer behavior is paramount to driving success. For Olist, the primary hurdle had been a lack of meaningful customer segmentation, which made it difficult for the marketing division to personalize campaigns. This resulted in lower customer engagement, reduced marketing campaign effectiveness, and missed revenue opportunities. 
 
-### How Customer Segmentation (RFM) and Product Recommendations (Upselling & Cross-Selling) Impact Marketing Efficiency Metrics for E-Commerce Businesses
-**Business Metrics Improvement: Percentage Increases:**
-- **CAC**: Targeted segmentation can reduce CAC by 20-40% .
-- **ROMI**: Personalization strategies can boost ROMI by 10-30% .
-- **Conversion Rates**: Product recommendations increase conversion rates by 20-50% .
-- **Customer Retention Rate**: Segmentation and recommendations improve retention rates by 5-10% .
-- **CTR**: Personalized recommendations boost CTRs by 25-50% .
-- **ARPU**: Upselling and cross-selling increase ARPU by 10-20% .
-- **CPA**: Proper segmentation can decrease CPA by 15-30% .
+Our project centered around the implementation of machine learning (ML) models for Olist's e-commerce marketing division using Recency, Frequency, and Monetary (RFM) analysis, enhanced by a product recommendation system (RecSys) based on Market Basket Analysis (MBA). Our project utilized two core methodologies: **RFM Analysis** for Customer Segmentation (ML Clustering) and **FP-Growth algorithm** for (MB Analysis) for the task of product recommendation.
+
+The primary goal was to enable the stakeholders to better understand their customer base and optimize their marketing strategies by addressing critical challenges in customer segmentation, marketing personalization, and product offering optimization, ultimately leading to increased transaction volumes, Average Order Value (AOV), and Customer Lifetime Value (CLV).
+
+## Scope of the Project
+
+The project employed RFM (Recency, Frequency, Monetary) analysis to categorize customers into 10 distinct segments based on their purchasing behavior. These segments ranged from high-value customers such as **Champions** and **Loyal Customers** to lower-value segments such as **Hibernating** and **Lost Customers**. Machine Learning clustering models, such as k-means, were NOT applied due the “Manual Binning’s” more appropriate and advanced business interpretation, hence further refining these segments, providing a clearer, data-backed picture of customer behaviors. Additionally, the **FP-Growth algorithm** was implemented to identify associations between products, enabling more personalized and effective product recommendations tailored to each segment.
+
+The project’s **focus** was twofold:
+1. **Revenue Growth:** Emphasizing marketing efforts on the top six customer segments, including Champions, Loyal Customers, Potential Champions, Can’t Lose Them, Recent Users, and Needs Attention → a.k.a. maximizing revenue by concentrating on high-value customer segments)
+2. **Cost Savings:** Reducing marketing spend on the bottom four customer segments—Price Sensitive, About to Sleep, Hibernating, and Lost Customers → a.k.a. reducing costs by scaling back efforts on low-performing segments.
 
 
 ## Business Narrative:
@@ -88,13 +83,62 @@ By segmenting customers based on RFM analysis and using MBA for product affinity
     - **Product Recommendations**: Strong association rules enable personalized recommendations that can boost average order value and sales. Implementing these recommendations effectively translates to higher revenue and improved customer satisfaction.
     - **MBA Metrics**: High confidence and lift for product recommendations suggest strong relationships between items, which can be leveraged to enhance cross-selling and upselling opportunities.
 
-## Stakeholder Presentation:
+## Stakeholder Point-of-View:
 By applying RFM customer segmentation and MBA in an e-commerce context, the company can expect to see tangible business benefits such as higher CLV, increased revenue, and improved marketing ROI. The key is to bridge technical improvements—like better customer segmentation and product recommendations—with core business metrics such as revenue growth, profitability, and the long-term value of customers. **(that C-suite stakeholders care about)**
 
-When presenting to C-suite stakeholders, the focus should be on how technical improvements from RFM and MBA directly impact business outcomes:
 1. **Revenue Growth**: By identifying high-value customer segments and leveraging MBA for product recommendations, revenue increases through higher AOV and repeat purchases. These insights help optimize marketing spend, targeting the right customers with the right products.
 2. **Increased CLV**: The improved targeting through RFM increases the retention of at-risk customers, while MBA drives upsell and cross-sell opportunities, thereby boosting the average CLV of each customer.
 3. **Marketing Efficiency**: With RFM segmentation, marketing efforts become more personalized and effective, leading to better ROI on marketing campaigns. By focusing resources on high-potential segments (e.g., Champions, Loyal Customers), campaigns are more likely to result in conversions.
+
+
+============================================================================================================================================
+## POST-PROJECT REVIEW (result interpretation)
+
+### Impact on Stakeholders
+
+The results of this ML implementation were profound. For the **Olist Marketing Division**, the nuanced customer segmentation provided insights that allowed for more targeted and effective marketing campaigns driven by a more tailored customer experience and optimized product offerings suited to each segments, further enhancing “Individual Personalisation”.
+
+From the **Marketplace Sellers' perspective**, the enhanced product recommendation system has the potential to foster increased cross-selling and upselling, directly contributing to higher sales volumes and an elevated AOV. Sellers benefited from a clearer understanding of which customer segments were most likely to convert and make additional purchases, resulting in more effective promotional efforts and higher revenues.
+
+For the **Marketplace Buyers**, the improvements led to a more engaging shopping experience. The use of personalized product recommendations increased customer satisfaction and loyalty by ensuring that they received relevant and appealing offers, thereby reinforcing their connection with the Olist brand. This ultimately resulted in higher customer retention rates and an increase in CLV.
+
+### Impact on Business (Financial)
+
+The results from this ML implementation yielded substantial financial benefits, most notably in terms of both revenue growth and cost savings. By focusing on high-value customer segments, the project achieved a total revenue increase of **R$3,128,320.85**. The segments that contributed the most to this growth were **Needs Attention** (R$2,437,345.64) and **Recent Users** (R$388,499.11), emphasizing the importance of nurturing emerging customers and providing them with targeted product recommendations.
+
+Simultaneously, the project identified significant cost-saving opportunities by strategically limiting investments in the lower-value segments. This resulted in a total cost savings of **R$1,289,345.17**, driven mainly by reduced marketing spend on the **Price Sensitive** (R$327,109.53) and **Hibernating** (R$614,030.65) segments. The dual approach of increasing revenue while cutting costs resulted in an overall financial impact of **R$4,417,666.02**, underscoring the effectiveness of the ML models in enhancing business profitability.
+
+### Future Prospects
+
+Moving forward, the application of these Machine Learning models can be expanded to other aspects of the business. For instance, further refinement of the FP-Growth algorithm can improve cross-selling and upselling strategies by dynamically updating recommendations as customer preferences evolve. Additionally, there is also potential to explore deep learning techniques to uncover more complex patterns in customer behavior, which could lead to even more granular segmentation and better targeting. 
+
+### Conclusion
+
+The implementation of Machine Learning models for customer segmentation and product recommendation systems, leveraging RFM analysis and clustering techniques, helps our stakeholders in fine-tuning their respective marketing strategies, leading to significantly increased revenue and reduced operational costs, creating a positive feedback loop between customer engagement and profitability. The ability to focus marketing efforts on the most promising customer segments while reducing costs in less responsive areas offers a sustainable path for growth. As these models evolve and adapt, the future prospects for Olist’s e-commerce business look more promising, setting the stage in enhancing Olist’s marketing effectiveness, improving customer engagement, and driving overall financial growth, laying a sustainable path for future advancements.
+
+
+
+============================================================================================================================================
+## ADDITIONAL: Research on Business Metrics & Marketing Efficiency Improvement (post RFM & MBA):
+
+### How RFM Customer Segmentation and Product Recommendations Impact Business Metrics:
+**Business Metrics Improvement: Percentage Increases:**
+- **CLV**: Increasing customer retention by 5% can result in a 25-95% increase in profits .
+- **ACL**: Personalization strategies can extend customer lifespans by up to 20% .
+- **AOV**: Product recommendations, especially upselling and cross-selling, can boost AOV by 10-30% .
+- **APF**: Cross-selling and upselling efforts can increase purchase frequency by 15-20% .
+- **Sales Volume**: Effective segmentation and recommendation systems can lead to a 10-20% increase in sales volume .
+- **Revenue**: Personalization through RFM segmentation and product recommendations can increase overall revenue by 10-15% .
+
+### How Customer Segmentation (RFM) and Product Recommendations (Upselling & Cross-Selling) Impact Marketing Efficiency Metrics for E-Commerce Businesses
+**Business Metrics Improvement: Percentage Increases:**
+- **CAC**: Targeted segmentation can reduce CAC by 20-40% .
+- **ROMI**: Personalization strategies can boost ROMI by 10-30% .
+- **Conversion Rates**: Product recommendations increase conversion rates by 20-50% .
+- **Customer Retention Rate**: Segmentation and recommendations improve retention rates by 5-10% .
+- **CTR**: Personalized recommendations boost CTRs by 25-50% .
+- **ARPU**: Upselling and cross-selling increase ARPU by 10-20% .
+- **CPA**: Proper segmentation can decrease CPA by 15-30% .
 
 
 **Sources (Notion - Holistic):** https://endurable-sand-5da.notion.site/Business-Narrative-Calculations-5559b5d8950d493b81256b120c2ead9e?pvs=4 (contains Machine Learning RFM-CLusteirng & MBA-RecSys business calculation details)
