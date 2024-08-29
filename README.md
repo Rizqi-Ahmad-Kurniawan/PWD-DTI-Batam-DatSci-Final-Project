@@ -1,8 +1,15 @@
 # 🌟 PWD-DTI-Batam-DatSci-Final-Project 🌟
 
-![img1](https://github.com/user-attachments/assets/0d918a36-8958-47cb-b154-fea79a20b67f)
+# ☁️ Click, Cluster, Convert - Big, Basket, Buy: The ML Blueprint for Olist’s E-Commerce RFM & MBA Revolution 🗑️
 
-<img width="863" alt="Screenshot 2024-08-14 at 15 16 44" src="https://github.com/user-attachments/assets/2e548728-cc32-4abe-8984-5cfb1de46e3d">
+🏹 AssaultGroup_DTI_01_FinalProject <br>
+👥 [Muhammad Difagama Ivanka](https://github.com/zeenfts), [Rizqi Ahmad Kurniawan](https://github.com/Rizqi-Ahmad-Kurniawan), [Tio Syaifuddin](https://github.com/tio14)
+
+* [Tableau Story](https://public.tableau.com/app/profile/rizqi.ahmad.kurniawan/vizzes) 🎀
+* [Tableau Dashboard](https://public.tableau.com/views/FINALDTI-DSFinalProjectOlistE-CommerceDB/HomeDashboard?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 📈
+* [Main Notebook File](https://github.com/PurwadhikaDev/AssaultGroup_DTI_01_FinalProject/blob/main/notebook.ipynb) 📝
+* [Olist Brazilian E-commerce Datasets](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data?select=olist_order_payments_dataset.csv); [Geolocation](https://www.kaggle.com/code/zeeniye/geolocation-workaround-mapping-solved/notebook) 🗄
+---
 
 ## Main Idea: 
 Pareto's principle, a commonly accepted rule of business, states that roughly 20 percent of your customers provide 80 percent of your profits. Therefore, it makes sense for small businesses to focus much of their spending and attention on their core customers. The next tier of customers should also get some marketing attention. However, customers that do not offer much lifetime potential should not be the target of marketing investments.
