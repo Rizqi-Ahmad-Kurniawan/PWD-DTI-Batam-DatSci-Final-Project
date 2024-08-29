@@ -11,6 +11,10 @@
 * [Olist Brazilian E-commerce Datasets](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data?select=olist_order_payments_dataset.csv); [Geolocation](https://www.kaggle.com/code/zeeniye/geolocation-workaround-mapping-solved/notebook) 🗄
 ---
 
+![img1](https://github.com/user-attachments/assets/2d3afb62-d243-4c1f-ac75-f25b360cc63a)
+<img width="863" alt="Screenshot 2024-08-14 at 15 16 44" src="https://github.com/user-attachments/assets/98b6632b-7760-4e32-962e-19d539399f68">
+---
+
 ## Main Idea: 
 Pareto's principle, a commonly accepted rule of business, states that roughly 20 percent of your customers provide 80 percent of your profits. Therefore, it makes sense for small businesses to focus much of their spending and attention on their core customers. The next tier of customers should also get some marketing attention. However, customers that do not offer much lifetime potential should not be the target of marketing investments.
 
